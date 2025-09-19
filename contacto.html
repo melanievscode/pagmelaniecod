@@ -12,12 +12,13 @@
         <nav class="main-nav">
             <a href="index.html" class="logo-link"> <img src="assets/images/logo.png" alt="logo-endigital" class="logo"> </a>
             <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="index.html" class="nav-menu-link">Inicio </a></li>
+                <li class="nav-menu-item"><a href="#" class="nav-menu-link">Inicio </a></li>
                 <li class="nav-menu-item has-submenu"><a href="#" class="nav-menu-link">Servicios </a>
                     <ul class="submenu">
                         <li><a href="#"> Desarrollo web </a></li>
                         <li><a href="#"> Desarrollo de Apps </a></li>
                         <li><a href="#"> desarrollo </a></li>
+
                     </ul>
                 </li>
                 <li class="nav-menu-item"><a href="#" class="nav-menu-link"> Galería </a></li>
@@ -26,7 +27,55 @@
 
         </nav>
     </header>
-     <footer>
+
+    <header class="contactanos"> 
+        <section>
+            <h1 class="center"> Contáctanos</h1>
+            <p class="center"> Gracias por visitar nuestro sitio, dejanos un mensaje con tu requerimiento.</p>
+            <form name="form1" method="get" action="#">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+                <label for="apellido">Apellido </label>
+                <input type="text" name="apellido" id="apellido"   placeholder="Ingrese su apellido">
+                <label for="telefono">Teléfono</label>
+                <input type="number" name="Teléfono" id="telefono"  placeholder="0412-036-0137"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <label for="email">Correo electrónico</label>
+                <input type="text" name="email" id="email">
+                <label for="pais"> País</label>
+                <select name="pais" id="pais">
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="México">México</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Estados Unidos">Estados Unidos</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                </select>
+                <label>Fecha de Nacimiento</label>
+                <input type="date" name="FechaNacimiento">
+                <label>Mensaje</label>
+    
+                <textarea name="mensaje" id="mensaje" cols="150" rows="15"></textarea>
+
+                <input type="submit" value="ENVIAR">
+
+            </form>
+
+            <div class="car" >
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+            <div class="car2">
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+            <div class="car3">
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+            <div class="car4">
+                <i class="fa-solid fa-car-side"></i>
+            </div>
+        </section>
+      
+
+    <footer>
         <div class="col-2">
             <img src="assets/images/logo.png" alt="logo" class="logo-footer">
             <br>
@@ -36,6 +85,7 @@
                 <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
             </ul>
         </div>
+
         <div class="col-2">
             <h3>Servicios</h3>
             <ul>
@@ -45,6 +95,7 @@
                 <li><a href="#"><i class="fa-solid fa-check"></i>Hosting</a></li>
             </ul>
         </div>
+
         <div class="col-2">
             <h3>Contáctanos</h3>
             <ul>
@@ -54,6 +105,7 @@
             </ul>
         </div>
     </footer>
+
     <section class="copyright">
         <div class="col-3">
             <p> Sitio wed desarrollado por: Melanie Zapata.<i class="fa-solid fa-copyright"></i> Todos los derechos reservados. 2025</p>
@@ -62,3 +114,7 @@
             <p><a href="#"> Política de privacidad</a></p>
         </div>
     </section>
+</body>
+</html>
+    
+        

@@ -218,3 +218,176 @@ footer a:hover{
     background-color: black;
     color: rgb(255, 255, 255);
 }
+
+/*pagina de contacto*/
+
+.contactanos{
+    background-color: #112ed2;
+    color: white;
+    padding: 80px;
+}
+.contactanos h1{
+    font-size: 48px;
+    color: aqua;
+}
+label{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+input[type="text"],[type="email"],[type="date"],[type="number"]{
+    width: 100%;
+    border: 1px solid gray;
+    color: black;
+    background-color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px
+}
+textarea{
+    width: 100%;
+    border: 1px solid gray;
+    color: black;
+    background-color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+}
+select{
+    width: 100%;
+    border: 1px solid gray;
+    color: black;
+    background-color: #ffffff;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    width: 50%;
+    background-color: aqua;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: width 2s, heigth 4s, background-color 3s ;
+    animation-timing-function: ease-in;
+    
+}
+input[type="submit"]:hover{
+    width: 100%;
+    background-color: yellow;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+}
+/*.box{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    animation-name: box;
+    animation-duration: 4s;
+    position: relative;
+}
+@keyframes box {
+    0%{
+        background-color: aqua; left: 0px; top: 0px;
+    }
+    25%{
+        background-attachment: yellow; left: 300px; top: 0px;
+    }
+    50%{
+        background-attachment: var(--white); left: 300px; top: 300px;
+    }
+    75%{
+        background-attachment: blue; left: 0px; top: 300px;
+    }
+    100%{
+        background-color: aqua; left: 0px; top: 0px;
+    }
+    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}*/
+.car{
+    color: aqua;
+    position: relative;
+    animation-duration: 8s;
+    animation-name: car;
+    /*animation-iteration-count: infinite;*/
+}
+@keyframes car {
+   0%{
+         left: 0px; top: 0px;
+    }
+    25%{
+        left: 1000px; top: 0px;
+    }
+    100%{
+        left: 1000px; top: 0px;
+    }
+    
+}
+.car2{
+    color: rgb(246, 255, 0);
+    position: relative;
+    animation-duration: 10s;
+    animation-name: car;
+    /*animation-iteration-count: infinite;*/
+}
+@keyframes car {
+   0%{
+         left: 0px; top: 0px;
+    }
+    25%{
+        left: 1000px; top: 0px;
+    }
+    100%{
+        left: 1000px; top: 0px;
+    }
+    
+}
+.car3{
+    color: crimson;
+    position: relative;
+    animation-duration: 20s;
+    animation-name: car;
+    /*animation-iteration-count: infinite;*/
+}
+@keyframes car {
+   0%{
+         left: 0px; top: 0px;
+    }
+    25%{
+        left: 1000px; top: 0px;
+    }
+    100%{
+        left: 1000px; top: 0px;
+    }
+    
+}
+.car4{
+    color: blue;
+    position: relative;
+    animation-duration: 25s;
+    animation-name: car;
+    /*animation-iteration-count: infinite;*/
+}
+@keyframes car {
+   0%{
+         left: 0px; top: 0px;
+    }
+    25%{
+        left: 1000px; top: 0px;
+    }
+    100%{
+        left: 1000px; top: 0px;
+    }
+    
+}
